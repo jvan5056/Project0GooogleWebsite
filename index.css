@@ -1,0 +1,37 @@
+
+#menu-links > li:last-child
+{
+    float:right;
+    height:20px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+#search-tool {
+    display: inline;
+    float: center;
+    height: 100px;
+    width: 100%;
+}
+
+div {
+    position: absolute; 
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    float:center;
+}
+
+input {
+    display: flex;
+    float: center;
+    align-items: center;
+}

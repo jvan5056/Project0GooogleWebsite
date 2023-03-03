@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Search</title>
 </head>
 <body>
-    <h1>Gooogle</h1>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q" placeholder="search Gooogle">
-        <input type="submit" value="Google Search">
-    </form>
-
-    <div>
-        <a href="image.html" name="ImageSearch">Image Search</a>
-        <a href="advanced.html" name="AdvancedSearch">Advanced Search</a>
+    
+     <header id="menu-links">
+      <ol>
+        <li><a href="image.html" name="ImageSearch">Image Search</a></li>
+        <li><a href="advanced.html" name="AdvancedSearch">Advanced Search</a></li>
+      </ol>
+     </header>
+    
+    <div id="search-tool">
+      <h1 id="title" class="big-google">Gooogle</h1>
+      <form action="https://www.google.com/search">
+        <input id="search-bar" type="text" name="q" placeholder="search Gooogle">
+        <input id="search-button" type="submit" value="Google Search">
+      </form>
     </div>
+
 </body>
 </html>
