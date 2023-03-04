@@ -51,11 +51,8 @@ h1 {
     color: transparent; 
 }
 
-
 input {
-    display:flex;
-    /* float: center; */
-    /* align-items: center; */
+    display: flex;
     justify-content: center;
     margin: 5px;
 }
