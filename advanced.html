@@ -14,13 +14,18 @@
        <a href="index.html" name="Search">Google Search</a>
     </div> 
 
-    <div class="title">
-       <h1>Advanced Search</h1>
+    <div id="advanced-search-title" class="title">
+       <h1 id="advanced-search">Advanced Search</h1>
     </div>
+
+    <div class="find-pages"><span>Find pages with...</span></div>
       
     <div class="search-stuff">
       <form action="https://www.google.com/search">
-        <input class="form" type="text" name="q" placeholder="search Gooogle">
+        <div class="field-name" label="all">all these words:</div><input class="form" type="text" name="q">
+        <div class="field-name" label="exact">this exact word or phrase:</div><input class="form" type="text" name="q">
+        <div class="field-name" label="any">any of these words:</div><input class="form" type="text" name="q">
+        <div class="field-name" label="none">none of these words:</div><input class="form" type="text" name="q">
         <input class="button" type="submit" value="Advanced Search">
       </form>  
     </div>
